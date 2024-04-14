@@ -62,16 +62,16 @@ namespace GrishinLaba8Osnovy
             }
             
 
-            Console.Write("Введите длинну массива (t) = ");
-            int t = int.Parse(Console.ReadLine());
+            Console.Write("Введите длинну массива (t) = "); int t = int.Parse(Console.ReadLine());
+
             double[] z = Massive(t);
             OutPut(z);
             Console.WriteLine($"Сумма массива = {Summa(z)}\n");
 
             
 
-            Console.Write("Введите длинну массива (p) = ");
-            int p = int.Parse(Console.ReadLine());
+            Console.Write("Введите длинну массива (p) = "); int p = int.Parse(Console.ReadLine());
+
             double[] s = Massive(p);
             OutPut(s);
             Console.WriteLine($"Сумма массива={Summa(s)}\n");
